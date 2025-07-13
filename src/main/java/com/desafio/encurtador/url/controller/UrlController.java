@@ -39,7 +39,7 @@ public class UrlController {
         String shortUrl = service.shortenUrl(originalUrl);
         Map<String, String> response = new HashMap<String, String>();
 
-        response.put("url", "https://xxx.com/"+shortUrl);
+        response.put("url", "https://shortUrl.com/"+shortUrl);
         return ResponseEntity.ok(response);
     }
 
